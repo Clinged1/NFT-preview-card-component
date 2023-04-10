@@ -1,0 +1,96 @@
+body {
+  color: white;
+  font-family: outfit;
+  background-color: hsl(217, 54%, 11%);
+}
+
+
+div {
+position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%)
+}
+
+.money {
+  font-size: 11px;
+  color: hsl(178, 100%, 50%);
+  padding-top: 14px;
+  padding-bottom:15px ;
+  border-bottom: 0.1pt solid hsl(217, 31%, 31%);
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  
+}
+
+.container {
+     display: flex;
+   align-items:center;
+}
+
+.icon {
+  width: 9px; 
+  padding-left: 0px;
+  margin-right: 6px;
+  float: left;
+}
+
+.float {
+  float: right;
+  padding-right: 0px;
+  color: hsl(215, 51%, 70%);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: normal;
+    display: flex;
+   align-items:center;
+  
+}
+
+.final {
+  font-weight: normal;
+  font-size: 12px;
+  padding-top: 14px;
+   display: flex;
+   align-items:center;
+  padding-bottom: 19px;
+  
+}
+
+.profile_picture {
+  width: 25px;
+  margin-right: 12px;
+  border-style: solid;
+  border-radius: 30px;
+  border-width: 1px;
+  
+}
+
+.styling:hover {
+  color:hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.Main_Logo {
+  border-radius: 11%;
+  width: 86%;
+  padding: 18px;
+
+}
+
+.middle {
+  position: absolute;
+  top: 29.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  width: 215px;
+  border-radius: 4%;
+  height: 214px;
+  
+}
+
+.middle:hover {
+  background-color: rgba(0, 255, 247, 0.3);
+  opacity: 1;
+  cursor: pointer;
+}
